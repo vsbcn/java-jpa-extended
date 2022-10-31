@@ -1,5 +1,4 @@
-# solution-lab-3.06-vitalik
-) Using the Spring JPA model the relationships of the below application:
+1) Using the Spring JPA model the relationships of the below application:
 
 - Assume that you are working with Task Management software. Below are the requirements in regards to data storage:
 
