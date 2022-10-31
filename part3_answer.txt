@@ -1,0 +1,6 @@
+- Native SQL allow to use more enhaced statements and not method defined.
+- Supports only a small subset of the SQL standard, and it also does not support database-specific features. SQL queries can be used for advanced queries.
+- The entities can have multiple purposes"... which I've seen in production and I'd say is encouraged by ORM. 
+- So much for cohesion and the single responsibility principal. Adding behaviours to database entities is asking for trouble.
+- JPA does tend to get in the way by adding layers between your application and the database. 
+- If the application requires you to extensively hand-optimize the native database queries and schemas to maximize performance, JPA is probably not a good fit.
